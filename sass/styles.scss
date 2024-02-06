@@ -1,0 +1,120 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/material-icons/iconfont/material-icons.css';
+
+/* :::::: Odoo styles :::::: */
+
+
+
+.bg-dark-blue{
+    background-color: #161348;
+}
+
+
+.bg-card{
+    background-color: #1f1246;
+}
+
+body{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#card-container {
+    border-radius: 15px 15px 80px 15px ;
+}
+
+#mastercard{
+    border-radius: 20px;
+}
+
+#infinite-block{
+    border-radius: 0 80px 0 80px;
+}
+
+#slanted-bg::after {
+        background: inherit;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 11%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        transform: skewY(-2.5deg);
+        transform-origin: 245%;
+        
+}
+
+#footer-slanted::after{
+    background: #161348;
+    content: '';
+    display: block;
+    height: 13%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-2.5deg);
+    transform-origin: -35%;
+}
+
+#position_img1{
+    top: -8%;
+    left: 33%;
+    
+img{
+    border-radius: 15px;
+}
+}
+
+.rounded-corners{
+    border-radius: 15px;
+}
+
+.logo_circled {
+    width: 100px; 
+    height: 100px; 
+    clip-path: url(#clipCircle);
+}
+
+.circle {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: -40px; /* Adjust spacing between circles */
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.faded-corner-hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, lightgray, transparent);
+} 
+
+.white-slanted{
+    clip-path: polygon(0% 2%, 100% 0%, 188% 105%, 0% 101%);
+    -webkit-clip-path:  polygon(0% 2%, 100% 0%, 188% 105%, 0% 101%);
+
+}
+
+.light-slanted{
+    clip-path: polygon(0% 2%, 100% 0%, 190% 100%, 0% 100%);
+    -webkit-clip-path:  polygon(0% 2%, 100% 0%, 190% 100%, 0% 100%);
+}
+
+.blue-slanted{
+    clip-path: polygon(0% 2%, 100% 0%, 190% 100%, 0% 100%);
+    -webkit-clip-path:  polygon(0% 2%, 100% 0%, 190% 100%, 0% 100%);
+}
+

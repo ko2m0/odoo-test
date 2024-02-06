@@ -1,0 +1,17 @@
+{
+  "name": "odoo-test6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.6.x",
+    "bootstrap-icons": "^1.11.3",
+    "material-icons": "^1.13.12"
+  }
+}
